@@ -43,7 +43,7 @@ On refresh, the backend issues a new access token and a new refresh token (rotat
 As the user logs out of the system, their cookie containing their *RefreshToken* is cleared.
 
 ## CSRF protection & Security headers
-State-changing requests are protected against cross-site request forgery (CSRF) using *tiny-csrf*. And security-related HTTP response headers are set using *helmet*
+State-changing requests are protected against cross-site request forgery (CSRF) using *tiny-csrf*. And security-related HTTP response headers are set using *helmet*.
 
 # API overview
 
@@ -59,3 +59,4 @@ This project uses environment variables for secrets and DB credentials (see `bac
 
 # Motivation behind this project
 I wanted to learn backend concepts related to user authentication and web security (e.g. rate limiting, encryption, CSRF protection, and JWT-based auth). The primary focus for this project has been to explore and understand the backend and web security concepts; the frontend is intentionally minimal.
+
